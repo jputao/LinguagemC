@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main (){
+	
+	int x;
+	
+	printf("Digite um valor\n");
+	scanf("%d",&x);
+  if(x % 2 == 0){
+  	printf("E divisivel\n");
+  }else {
+  printf("nao e divisivel");}
+}
