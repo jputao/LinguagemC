@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main(){
+	 
+	 int n1,n2,n3,n4,maior;
+	 
+	 printf("Escreva o numero1:\n");
+	 scanf("%d",&n1);
+	 printf("Escreva o numero2:\n");
+	  scanf("%d",&n2);
+	  printf("Escreva o numero3:\n");
+	  scanf("%d",&n3);
+	  printf("Escreva o numero4:\n");
+	  scanf("%d",&n4);
+	  
+	  maior=n1;
+	  
+	  if(n2>maior){
+	  	maior=n2;
+	  }
+	  if(n3>maior){
+	  	maior=n3;
+	  }
+	  if(n4>maior){
+	  	maior=n4;
+	  }
+	  printf("O maior entre os 4 numeros e: %d",maior);
+	  
+	  
+}
