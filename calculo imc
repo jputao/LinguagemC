@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+	float peso, altura, imc,quadrado;
+	
+	printf("Digite seu peso:\n");
+	scanf("%f",&peso);
+	printf("Digite a sua altura:\n");
+	scanf("%f",&altura);
+	
+	quadrado=altura*altura;
+
+	imc=peso/quad;
+	
+	printf("O indicie de massa do usuario e:%0.2f",imc);
+}
